@@ -1,0 +1,31 @@
+1. NoSQL definition
+    NoSQL is a type of database system that does not use relational database system, such as SQL, hence NoSQL (no SQL).
+    NoSQL does not have a tabular or structured data system like SQL. NoSQL data does not follow a strict schema. For example,
+    data entry in NoSQL is stored in JSON format that does not require a specific set of rule, such as having a specific field value.
+
+2. When to use NoSQL
+    NoSQL is usually appropriate for data that is dynamic and not structured. For example, social media usually has a dynamic data
+    such as users that has a biography, while others don't. For RDBMS, it is more appropriate for structured and tabular data where
+    relations between the tables are important.
+
+3. Tools/Platform for NoSQL
+    Examples of platforms for NoSQL is MongoDB and Cassandra. MongoDB is one of the most popular database which has high
+    schema flexibility and scalability. It also has a wide integration and adoption into many systems because of its popularity.
+    Cassandra is a NoSQL database that is designed to be robust and has high availability, meaning it has high fault tolerance.
+    It is also more optimized for writing large amount of data without degrading its performance.
+
+4. Airflow usage
+    Apache Airflow is a tool used for workflow management for data engineering process. Airflow use directed acyclic graph (DAG)
+    to perform tasks. The tasks can be run on schedule to perform automated workflow.
+
+5. Great Expectation usage
+    Great Expectation is a tool used to perform data validation. The tool can be interfaced with many types of data source to
+    perform validation about the data, such as uniqueness of column or the volume of the data itself. This tool can be used to validate
+    both the content and also schema of the data source.
+
+6. Batch Processing
+    Batch processing is defined as processing data in batches. What is means is that the data being processed come in at one batch
+    at a time instead of real time (streaming). For example, quarterly profit data is being processed using batch processing. This
+    is because even though profit and sales happen everyday, the data is only processed in batches or group, i.e. quarterly batches.
+    One of the tools that can be used to perform batch processing is Apache Airflow. Apache Airflow can be configured to perform its tasks
+    once every quarter.

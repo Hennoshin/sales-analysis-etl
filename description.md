@@ -1,11 +1,9 @@
-# Judul Project
+# Profit and Sales Data Analysis and Visualization using Kibana
 
 ## Repository Outline
-`Bagian ini menjelaskan secara singkat konten/isi dari file yang dipush ke repository`
 
-Contoh:
 ```
-1. README.md - Penjelasan gambaran umum project
+1. README.md - Project outline
 2. notebook.ipynb - Notebook yang berisi pengolahan data dengan python
 dst.
 ```
@@ -29,9 +27,3 @@ dst.
 `Bagian ini berisi link pendukung seperti referensi, dashboard, atau deployment`
 
 ---
-
-**Referensi tambahan:**
-- [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-- [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
